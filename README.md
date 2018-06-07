@@ -1,3 +1,2 @@
 # beamformer
-
-A matlab script that simulates a planar MVDR adaptive beamformer.
+Matlab scripts that simulate a planar MVDR adaptive beamformer.
