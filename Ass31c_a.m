@@ -61,7 +61,7 @@ hold on
 plot(n,Y(3,(length(n)*jj+1):(length(n)*jj+length(n))),'b')
 hold on
 plot(n,Y(4,(length(n)*jj+1):(length(n)*jj+length(n))),'r')
-title(['antenna signals for f= ' num2str(freq) ' Hz and DOA = ' num2str(theta_d) '°'])
+title(['antenna signals for f= ' num2str(freq) ' Hz and DOA = ' num2str(theta_d) 'deg'])
 
 %% 
 
@@ -97,7 +97,7 @@ figure
 plot(real(Shat(jj,:)))
 hold on
 plot(real(S(jj,:)))
-title([' b-former output and baseband signal , DOA = ' num2str(theta_d) ' ° Unit = ' num2str(theta0_d) ' ° '])
+title([' b-former output and baseband signal , DOA = ' num2str(theta_d) ' deg Unit = ' num2str(theta0_d) ' deg '])
 
 
 

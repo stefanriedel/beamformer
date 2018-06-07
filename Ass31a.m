@@ -90,7 +90,7 @@ figure
 plot(real(Shat(jj,:)))
 hold on
 plot(real(S(jj,:)))
-title([' b-former output and baseband signal , DOA = ' num2str(theta_d) ' ?? Unit = ' num2str(theta0_d) ' ?? '])
+title([' b-former output and baseband signal , DOA = ' num2str(theta_d) ' deg Unit = ' num2str(theta0_d) ' deg '])
 
 
 
